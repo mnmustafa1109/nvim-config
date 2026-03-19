@@ -8,14 +8,14 @@ return {
       mappings = {
         i = { -- i for Insert mode
           j = {
-            j = "<Esc>", -- pressing j then k quickly will trigger Escape
+            k = "<Esc>", -- pressing j then k quickly will trigger Escape
           },
           -- you can add more mappings or customize existing ones
         },
         -- You can define mappings for other modes too, like terminal mode
         t = {
           j = {
-            j = "<C-\\><C-n>", -- escape terminal mode
+            k = "<C-\\><C-n>", -- escape terminal mode
           },
         },
       },
